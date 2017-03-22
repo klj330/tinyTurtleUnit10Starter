@@ -14,23 +14,24 @@ forward(50);
 
 // Type your function call below
 
-function triangle() {
+function triangle(x) {
     
-    forward(75);
+    forward(x);
     right(120);
-    forward(75);
+    forward(x);
     right(120);
-    forward(75);
+    forward(x);
     }
-    function rectangle(){
-        forward(75);
+    function rectangle(x){
+        forward(x);
         left(270);
-        forward(120);
+        forward(x);
         left(270);
-        forward(75);
+        forward(x);
         left(270);
-        forward(120);
+        forward(x);
         
     }
-rectangle();
+rectangle(100);
+triangle(100) ;
 stamp();
